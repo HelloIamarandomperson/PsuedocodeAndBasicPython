@@ -1,4 +1,5 @@
 def solution(A):
+    #this function takes a int array, and finds the spot which gets closest to splitting the array in half by the value of each int in the array added together
     LeftSide = 0
     RightSide = sum(A)
     def checkDiff():

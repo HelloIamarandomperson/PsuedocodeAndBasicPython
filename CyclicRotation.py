@@ -1,4 +1,5 @@
 def solution(A,k):
+    #function is designed to output a array shifted by k numbers, where overflow returns to the front
     if len(A) == 0:
         return A
     newArray = [None]*len(A)
