@@ -1,0 +1,9 @@
+def solution(A, K)
+  newArray is an Array that is same length as A
+  for every x in Length A
+    shift = x + K
+    if shift > Length A
+      shift = shift - Length A
+    newArray[shift] = A[x]
+
+  return newArray

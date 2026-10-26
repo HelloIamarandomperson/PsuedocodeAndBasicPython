@@ -1,0 +1,12 @@
+def solution(A)
+  LeftSide = 0
+  RightSide = everything in A added up
+  def checkDiff()
+    return nonnegative(LeftSide - RightSide)
+  SmallestDiff = None
+  for x in Length A
+    LeftSide = LeftSide + A[x]
+    RightSide = RightSide - A[x]
+    if SmallestDiff is None or < checkDiff
+      SmallestDiff = checkDiff()
+  return SmallestDiff

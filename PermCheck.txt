@@ -1,0 +1,6 @@
+def solution(A)
+  sortedA is sorted A
+  for x in sortedA
+    if A[x] ≠ x+1
+      return 0
+  return 1

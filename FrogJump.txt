@@ -1,0 +1,6 @@
+def solution(x, y, d)
+  jumps = 0
+  while x < y
+    Add x + d to x
+    Add 1 to jumps
+  return jumps
