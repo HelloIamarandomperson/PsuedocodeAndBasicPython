@@ -5,3 +5,4 @@ def solution(A):
         #Since the array is sorted, if any of them don't correspond to their position, that means they are missing
         if sortedA[x] != x+1:
             return x+1
+    return len(sortedA) + 1
